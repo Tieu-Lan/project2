@@ -1,0 +1,71 @@
+input:focus {
+    outline: none;
+}
+
+.body {
+    width: 400px;
+    border: 2px grey solid;
+    border-radius: 30px;
+    margin: 100px auto 20px;
+}
+
+.t {
+    text-align: center;
+}
+
+h4 {
+    text-align: center;
+    color: brown;
+    display: none;
+}
+
+input {
+    padding: 5px;
+    margin: 5px;
+    border: #56707f solid 1px;
+    border-radius: 3px;
+    color: #000000
+}
+
+input[type="text"], input[type="password"], input[type="email"] {
+    margin-left: 25%;
+    width: 50%;
+}
+
+input[type="button"] ,input[type="submit"]{
+    background-color: white;
+    margin: 50px 30%;
+    width: 40%;
+    height: 30px;
+}
+
+input[type="button"]:active,input[type="submit"]:active {
+    background-color: #cac3b7;
+}
+
+.small {
+    text-align: center;
+}
+
+.small a {
+    color: saddlebrown;
+    text-decoration: none;
+}
+
+.small a:hover {
+    color: grey;
+}
+
+img {
+    height: 60px;
+    width: 60px;
+}
+
+.logo {
+    width: 60px;
+    margin: 100px auto 10px;
+}
+
+.foot {
+    text-align: center;
+}

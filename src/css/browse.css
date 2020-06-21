@@ -1,0 +1,164 @@
+*:focus {
+    outline: none;
+}
+
+.body:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.searchbox {
+    margin: 20px 5px;
+    padding: 5px 2px;
+    background-color: #cac3b7;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.hot input {
+    border-radius: 5px;
+}
+
+input:focus {
+    outline: none;
+}
+
+.hot img {
+    width: 10px;
+}
+
+.hot {
+    box-shadow: 4px 4px 3px rgba(20%, 20%, 40%, 0.5);
+    margin: 20px 7px;
+    border-radius: 5px;
+    text-align: center;
+    border: #cac3b7 2px solid;
+}
+
+.hot .head {
+    font-weight: bold;
+    padding: 5px;
+    background-color: #cac3b7;
+}
+
+.hot a {
+    color: black;
+}
+
+.hot a:hover {
+    color: #bdac9e;
+}
+
+.hot .em {
+    border-bottom: #cac3b7 2px solid;
+}
+
+.em, .bottom {
+    padding: 10px;
+}
+
+.filter-box {
+    margin-left: 2.5%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 80%;
+    float: left;
+}
+
+.filter-box select, .filter-box input {
+    background-color: #79706f;
+    font-size: 12px;
+    width: 10%;
+    height: 30px;
+    border-radius: 5px;
+    color: white;
+}
+
+.filter-box select:active, .filter-box input:active {
+    background-color: #bdac9e;
+}
+
+
+.hot-box {
+    width: 15%;
+    float: left;
+}
+
+.filter-box-select li {
+    margin: 0 0 20px 20px;
+    width: 280px;
+    height: 280px;
+    overflow: hidden;
+    float: left;
+    text-align: center;
+}
+
+.filter-box-select li img {
+    width: 100%;
+    height: 100%;
+    margin-top: 3%;
+    border-radius: 5px;
+}
+
+.filter-box-head {
+    font-size: 20px;
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    background-color: #cac3b7;
+    box-shadow: 4px 4px 3px rgba(20%, 20%, 40%, 0.5);
+}
+
+.filter-box-select:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.filter-box-select {
+    border: #cac3b7 solid 10px;
+    border-radius: 5px;
+    padding: 6px 0;
+    margin-top: 10px;
+    text-align: center;
+    background-color: #cac3b7;
+    box-shadow: 4px 4px 3px rgba(20%, 20%, 40%, 0.5);
+}
+
+.filter-box-select select, .filter-box-select input {
+    margin: 0 7.2%;
+}
+
+.filter-box-select ul:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.filter-box-select ul {
+    margin-top: 10px;
+}
+
+.filter-box-select-page {
+    padding-top: 10px;
+}
+
+.filter-box-select-page a {
+    color: black;
+}
+
+.filter-box-select-page a:hover {
+    color: lightgrey;
+}
+
+#page-choose {
+    color: brown;
+}
+
+.hot .head, .hot .em, .hot .emm {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap
+}

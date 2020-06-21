@@ -1,0 +1,71 @@
+.body{
+    box-shadow:4px 4px 3px rgba(20%,20%,40%,0.5);
+    margin: 20px 10%;
+    border: #cac3b7 2px solid;
+    border-radius: 5px;
+}
+
+.head{
+    padding-top: 4px;
+    font-weight: bold;
+    font-size: 18px;
+    height: 30px;
+    background-color: #cac3b7;
+    text-align: center;
+}
+.content img{
+    float: left;
+    width: 50%;
+    margin-left: 2%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.information{
+    box-shadow:4px 4px 3px rgba(20%,20%,40%,0.5);
+    text-align: center;
+    margin-left: 5%;
+    margin-top: 2%;
+    border: #cac3b7 2px solid;
+    border-radius: 5px;
+    width: 30%;
+    float: left;
+}
+
+.information .line{
+    padding-top: 6px;
+    border-bottom: #cac3b7 2px solid;
+}
+
+.information p{
+    padding-top: 6px;
+    height: 30px;
+}
+
+button[type="button"]{
+    margin-left: 7.5%;
+    margin-top: 2%;
+    padding: 10px 32px;
+    height: 10%;
+    border-radius: 6px;
+    text-decoration: none;
+    background-color: brown;
+    color: white;
+    border: none;
+    float: left;
+    cursor: pointer;
+    width: 25%;
+}
+
+button[type="button"]:focus{
+    outline: none;
+}
+
+button[type="button"]:active{
+    background-color: red;
+}
+
+.content > p{
+    clear: both;
+    margin: 2% 5%;
+}

@@ -1,0 +1,16 @@
+body {
+    background-color: white;
+}
+
+.body:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.thumbnail .caption p{
+    overflow: hidden;text-overflow: ellipsis;white-space: nowrap
+}
+
+.content{
+    margin: 1%;
+}

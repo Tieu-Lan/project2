@@ -1,0 +1,106 @@
+a {
+    text-decoration: none;
+}
+
+a:hover, a:host, a:focus {
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+footer {
+    box-shadow: 4px 4px 3px rgba(20%, 20%, 40%, 0.5);
+    background-color: #cac3b7;
+    margin: 10px 7px;
+    border-radius: 10px;
+    padding: 20px 10%;
+}
+
+footer:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+footer .foot1 li {
+    width: 16.667%;
+    float: left;
+    text-align: center;
+}
+
+footer .foot1 a {
+    color: black;
+}
+
+footer .foot2 li {
+    float: left;
+    width: 25%;
+    text-align: center;
+}
+
+footer .foot2 {
+    margin-top: 50px;
+}
+
+footer .foot1 a:hover {
+    color: lightgrey;
+}
+
+footer .foot2 img {
+    width: 20px;
+}
+
+footer small {
+    text-align: center;
+    float: left;
+    margin: 20px 23% 0;
+}
+
+.side img {
+    margin: 5px;
+    width: 15px;
+}
+
+.side li {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    position: relative;
+    z-index: 2;
+}
+
+.side {
+    position: fixed;
+    right: 0;
+    top: 70%;
+    width: 30px;
+    margin-top: -90px;
+    z-index: 10;
+}
+
+.side span {
+    font-size: 20px;
+    color: brown;
+}
+
+.layui-nav .layui-nav-child dd.layui-this a, .layui-nav-child dd.layui-this {
+    background-color: brown;
+    color: #fff;
+}
+
+.layui-nav {
+    margin: 4px 7px;
+    background-color: #cac3b7;
+    border-radius: 10px;
+    box-shadow: 4px 4px 3px rgba(20%, 20%, 40%, 0.5);
+    border: none;
+    opacity: 1;
+}
